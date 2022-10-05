@@ -793,6 +793,78 @@ header .header__content {
   width: 100%;
 }
 
+/* .testimonial__pic .shape-bx {
+  position: relative;
+  height: 35px;
+  width: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 18px;
+  opacity: 0;
+  transition: all 1s;
+  background-color: #f55f8d;
+}
+
+.swiper-slide-thumb-active .testimonial__pic .shape-bx {
+  opacity: 1;
+}
+.testimonial__pic .shape-bx::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-image: url(../img/pattern12.png);
+  background-position: bottom;
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+  transition: all 1s;
+}
+
+.swiper-slide-thumb-active .testimonial__pic::after,
+.swiper-slide-thumb-active .testimonial__pic::before {
+  opacity: 1;
+}
+
+.testimonial__pic::after,
+.testimonial__pic::before {
+  content: "";
+  background-color: #f55f8d;
+  border-radius: 50px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+} */
+.testimonial-pic .shape-bx {
+  position: relative;
+  height: 35px;
+  width: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 18px;
+  opacity: 0;
+  transition: all 1s;
+  background-color: #f55f8d;
+}
+
+.testimonial-pic .shape-bx::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-image: url(./../imgs/pattern12.png);
+  background-position: bottom;
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+  transition: all 1s;
+}
+
+.swiper-slide-thumb-active .testimonial__pic .shape-bx {
+  opacity: 1 !important;
+}
+
 /* blog  */
 
 #blog {
