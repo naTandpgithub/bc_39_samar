@@ -1107,12 +1107,13 @@ header .header__content {
 }
 
 .footer__foot {
-  padding: 30px 0;
+  padding: 10px 0;
 }
 
 .footer__content {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .footer__foot {
@@ -1161,6 +1162,31 @@ header .header__content {
 
 #footer .container {
   position: relative;
+}
+
+.backToTop i {
+}
+
+.backToTop {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: white;
+  background-color: #f55f8d;
+  border-radius: 10px;
+  opacity: 0;
+}
+
+.cd-top--is-visible {
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top--fade-out {
+  opacity: 0.5;
 }
 
 /* Animation  */
